@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B64A255820BDD02600059E50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64A255720BDD02600059E50 /* AppDelegate.swift */; };
+		B64A255A20BDD02600059E50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64A255920BDD02600059E50 /* ViewController.swift */; };
+		B64A255D20BDD02600059E50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B64A255B20BDD02600059E50 /* Main.storyboard */; };
+		B64A255F20BDD02600059E50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B64A255E20BDD02600059E50 /* Assets.xcassets */; };
+		B64A256220BDD02600059E50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B64A256020BDD02600059E50 /* LaunchScreen.storyboard */; };
+		B64A256D20BDD02600059E50 /* poc_alertViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64A256C20BDD02600059E50 /* poc_alertViewTests.swift */; };
+		B64A257820BDD02600059E50 /* poc_alertViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64A257720BDD02600059E50 /* poc_alertViewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B64A256920BDD02600059E50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B64A254C20BDD02600059E50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B64A255320BDD02600059E50;
+			remoteInfo = "poc-alertView";
+		};
+		B64A257420BDD02600059E50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B64A254C20BDD02600059E50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B64A255320BDD02600059E50;
+			remoteInfo = "poc-alertView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B64A255420BDD02600059E50 /* poc-alertView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "poc-alertView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B64A255720BDD02600059E50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B64A255920BDD02600059E50 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B64A255C20BDD02600059E50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B64A255E20BDD02600059E50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B64A256120BDD02600059E50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B64A256320BDD02600059E50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B64A256820BDD02600059E50 /* poc-alertViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "poc-alertViewTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B64A256C20BDD02600059E50 /* poc_alertViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = poc_alertViewTests.swift; sourceTree = "<group>"; };
+		B64A256E20BDD02600059E50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B64A257320BDD02600059E50 /* poc-alertViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "poc-alertViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B64A257720BDD02600059E50 /* poc_alertViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = poc_alertViewUITests.swift; sourceTree = "<group>"; };
+		B64A257920BDD02600059E50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B64A255120BDD02600059E50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B64A256520BDD02600059E50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B64A257020BDD02600059E50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B64A254B20BDD02600059E50 = {
+			isa = PBXGroup;
+			children = (
+				B64A255620BDD02600059E50 /* poc-alertView */,
+				B64A256B20BDD02600059E50 /* poc-alertViewTests */,
+				B64A257620BDD02600059E50 /* poc-alertViewUITests */,
+				B64A255520BDD02600059E50 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B64A255520BDD02600059E50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B64A255420BDD02600059E50 /* poc-alertView.app */,
+				B64A256820BDD02600059E50 /* poc-alertViewTests.xctest */,
+				B64A257320BDD02600059E50 /* poc-alertViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B64A255620BDD02600059E50 /* poc-alertView */ = {
+			isa = PBXGroup;
+			children = (
+				B64A255720BDD02600059E50 /* AppDelegate.swift */,
+				B64A255920BDD02600059E50 /* ViewController.swift */,
+				B64A255B20BDD02600059E50 /* Main.storyboard */,
+				B64A255E20BDD02600059E50 /* Assets.xcassets */,
+				B64A256020BDD02600059E50 /* LaunchScreen.storyboard */,
+				B64A256320BDD02600059E50 /* Info.plist */,
+			);
+			path = "poc-alertView";
+			sourceTree = "<group>";
+		};
+		B64A256B20BDD02600059E50 /* poc-alertViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				B64A256C20BDD02600059E50 /* poc_alertViewTests.swift */,
+				B64A256E20BDD02600059E50 /* Info.plist */,
+			);
+			path = "poc-alertViewTests";
+			sourceTree = "<group>";
+		};
+		B64A257620BDD02600059E50 /* poc-alertViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B64A257720BDD02600059E50 /* poc_alertViewUITests.swift */,
+				B64A257920BDD02600059E50 /* Info.plist */,
+			);
+			path = "poc-alertViewUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B64A255320BDD02600059E50 /* poc-alertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B64A257C20BDD02600059E50 /* Build configuration list for PBXNativeTarget "poc-alertView" */;
+			buildPhases = (
+				B64A255020BDD02600059E50 /* Sources */,
+				B64A255120BDD02600059E50 /* Frameworks */,
+				B64A255220BDD02600059E50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "poc-alertView";
+			productName = "poc-alertView";
+			productReference = B64A255420BDD02600059E50 /* poc-alertView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B64A256720BDD02600059E50 /* poc-alertViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B64A257F20BDD02600059E50 /* Build configuration list for PBXNativeTarget "poc-alertViewTests" */;
+			buildPhases = (
+				B64A256420BDD02600059E50 /* Sources */,
+				B64A256520BDD02600059E50 /* Frameworks */,
+				B64A256620BDD02600059E50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B64A256A20BDD02600059E50 /* PBXTargetDependency */,
+			);
+			name = "poc-alertViewTests";
+			productName = "poc-alertViewTests";
+			productReference = B64A256820BDD02600059E50 /* poc-alertViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B64A257220BDD02600059E50 /* poc-alertViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B64A258220BDD02600059E50 /* Build configuration list for PBXNativeTarget "poc-alertViewUITests" */;
+			buildPhases = (
+				B64A256F20BDD02600059E50 /* Sources */,
+				B64A257020BDD02600059E50 /* Frameworks */,
+				B64A257120BDD02600059E50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B64A257520BDD02600059E50 /* PBXTargetDependency */,
+			);
+			name = "poc-alertViewUITests";
+			productName = "poc-alertViewUITests";
+			productReference = B64A257320BDD02600059E50 /* poc-alertViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B64A254C20BDD02600059E50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Raphael Natura";
+				TargetAttributes = {
+					B64A255320BDD02600059E50 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					B64A256720BDD02600059E50 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B64A255320BDD02600059E50;
+					};
+					B64A257220BDD02600059E50 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B64A255320BDD02600059E50;
+					};
+				};
+			};
+			buildConfigurationList = B64A254F20BDD02600059E50 /* Build configuration list for PBXProject "poc-alertView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B64A254B20BDD02600059E50;
+			productRefGroup = B64A255520BDD02600059E50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B64A255320BDD02600059E50 /* poc-alertView */,
+				B64A256720BDD02600059E50 /* poc-alertViewTests */,
+				B64A257220BDD02600059E50 /* poc-alertViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B64A255220BDD02600059E50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B64A256220BDD02600059E50 /* LaunchScreen.storyboard in Resources */,
+				B64A255F20BDD02600059E50 /* Assets.xcassets in Resources */,
+				B64A255D20BDD02600059E50 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B64A256620BDD02600059E50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B64A257120BDD02600059E50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B64A255020BDD02600059E50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B64A255A20BDD02600059E50 /* ViewController.swift in Sources */,
+				B64A255820BDD02600059E50 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B64A256420BDD02600059E50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B64A256D20BDD02600059E50 /* poc_alertViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B64A256F20BDD02600059E50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B64A257820BDD02600059E50 /* poc_alertViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B64A256A20BDD02600059E50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B64A255320BDD02600059E50 /* poc-alertView */;
+			targetProxy = B64A256920BDD02600059E50 /* PBXContainerItemProxy */;
+		};
+		B64A257520BDD02600059E50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B64A255320BDD02600059E50 /* poc-alertView */;
+			targetProxy = B64A257420BDD02600059E50 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B64A255B20BDD02600059E50 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B64A255C20BDD02600059E50 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B64A256020BDD02600059E50 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B64A256120BDD02600059E50 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B64A257A20BDD02600059E50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B64A257B20BDD02600059E50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B64A257D20BDD02600059E50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8LZKPDQ2U2;
+				INFOPLIST_FILE = "poc-alertView/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.leahpar.poc-alertView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B64A257E20BDD02600059E50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8LZKPDQ2U2;
+				INFOPLIST_FILE = "poc-alertView/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.leahpar.poc-alertView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B64A258020BDD02600059E50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8LZKPDQ2U2;
+				INFOPLIST_FILE = "poc-alertViewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.leahpar.poc-alertViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/poc-alertView.app/poc-alertView";
+			};
+			name = Debug;
+		};
+		B64A258120BDD02600059E50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8LZKPDQ2U2;
+				INFOPLIST_FILE = "poc-alertViewTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.leahpar.poc-alertViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/poc-alertView.app/poc-alertView";
+			};
+			name = Release;
+		};
+		B64A258320BDD02600059E50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8LZKPDQ2U2;
+				INFOPLIST_FILE = "poc-alertViewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.leahpar.poc-alertViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "poc-alertView";
+			};
+			name = Debug;
+		};
+		B64A258420BDD02600059E50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8LZKPDQ2U2;
+				INFOPLIST_FILE = "poc-alertViewUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.leahpar.poc-alertViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "poc-alertView";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B64A254F20BDD02600059E50 /* Build configuration list for PBXProject "poc-alertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B64A257A20BDD02600059E50 /* Debug */,
+				B64A257B20BDD02600059E50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B64A257C20BDD02600059E50 /* Build configuration list for PBXNativeTarget "poc-alertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B64A257D20BDD02600059E50 /* Debug */,
+				B64A257E20BDD02600059E50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B64A257F20BDD02600059E50 /* Build configuration list for PBXNativeTarget "poc-alertViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B64A258020BDD02600059E50 /* Debug */,
+				B64A258120BDD02600059E50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B64A258220BDD02600059E50 /* Build configuration list for PBXNativeTarget "poc-alertViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B64A258320BDD02600059E50 /* Debug */,
+				B64A258420BDD02600059E50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B64A254C20BDD02600059E50 /* Project object */;
+}
