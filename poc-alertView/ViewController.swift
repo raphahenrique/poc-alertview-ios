@@ -10,6 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBAction func tapButton(_ sender: Any) {
+        
+        let alert = CustomAlert(title: "Hello there!! 👋🏻👋🏻",description: "lorem impsum bla bla bla")
+        
+        alert.show(animated: true)
+        
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

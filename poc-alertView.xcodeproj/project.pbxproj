@@ -14,6 +14,10 @@
 		B64A256220BDD02600059E50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B64A256020BDD02600059E50 /* LaunchScreen.storyboard */; };
 		B64A256D20BDD02600059E50 /* poc_alertViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64A256C20BDD02600059E50 /* poc_alertViewTests.swift */; };
 		B64A257820BDD02600059E50 /* poc_alertViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64A257720BDD02600059E50 /* poc_alertViewUITests.swift */; };
+		B64A258720BDD08E00059E50 /* ModalProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64A258620BDD08E00059E50 /* ModalProtocols.swift */; };
+		B64A258920BDD18300059E50 /* CustomAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64A258820BDD18300059E50 /* CustomAlert.swift */; };
+		B64A258B20BDDBBA00059E50 /* CustomAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B64A258A20BDDBBA00059E50 /* CustomAlertView.xib */; };
+		B689EFD220BECF4D008411D2 /* CustomAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B689EFD120BECF4D008411D2 /* CustomAlertView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		B64A257320BDD02600059E50 /* poc-alertViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "poc-alertViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B64A257720BDD02600059E50 /* poc_alertViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = poc_alertViewUITests.swift; sourceTree = "<group>"; };
 		B64A257920BDD02600059E50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B64A258620BDD08E00059E50 /* ModalProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalProtocols.swift; sourceTree = "<group>"; };
+		B64A258820BDD18300059E50 /* CustomAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlert.swift; sourceTree = "<group>"; };
+		B64A258A20BDDBBA00059E50 /* CustomAlertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CustomAlertView.xib; path = "poc-alertView/CustomAlertView.xib"; sourceTree = SOURCE_ROOT; };
+		B689EFD120BECF4D008411D2 /* CustomAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +105,10 @@
 		B64A255620BDD02600059E50 /* poc-alertView */ = {
 			isa = PBXGroup;
 			children = (
+				B64A258520BDD06300059E50 /* customAlert */,
 				B64A255720BDD02600059E50 /* AppDelegate.swift */,
+				B64A258620BDD08E00059E50 /* ModalProtocols.swift */,
+				B64A258820BDD18300059E50 /* CustomAlert.swift */,
 				B64A255920BDD02600059E50 /* ViewController.swift */,
 				B64A255B20BDD02600059E50 /* Main.storyboard */,
 				B64A255E20BDD02600059E50 /* Assets.xcassets */,
@@ -123,6 +134,15 @@
 				B64A257920BDD02600059E50 /* Info.plist */,
 			);
 			path = "poc-alertViewUITests";
+			sourceTree = "<group>";
+		};
+		B64A258520BDD06300059E50 /* customAlert */ = {
+			isa = PBXGroup;
+			children = (
+				B64A258A20BDDBBA00059E50 /* CustomAlertView.xib */,
+				B689EFD120BECF4D008411D2 /* CustomAlertView.swift */,
+			);
+			path = customAlert;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +254,7 @@
 			files = (
 				B64A256220BDD02600059E50 /* LaunchScreen.storyboard in Resources */,
 				B64A255F20BDD02600059E50 /* Assets.xcassets in Resources */,
+				B64A258B20BDDBBA00059E50 /* CustomAlertView.xib in Resources */,
 				B64A255D20BDD02600059E50 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,7 +280,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B689EFD220BECF4D008411D2 /* CustomAlertView.swift in Sources */,
 				B64A255A20BDD02600059E50 /* ViewController.swift in Sources */,
+				B64A258720BDD08E00059E50 /* ModalProtocols.swift in Sources */,
+				B64A258920BDD18300059E50 /* CustomAlert.swift in Sources */,
 				B64A255820BDD02600059E50 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
