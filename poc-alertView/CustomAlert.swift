@@ -41,7 +41,7 @@ class CustomAlert: UIView, Modal {
         dialogView.backgroundColor = UIColor.white
         dialogView.layer.cornerRadius = 6
         
-        let alertView = CustomAlertView.init(frame: self.bounds)
+        let alertView = CustomAlertView.customAlert()
         alertView.titleLabel.text = title
         alertView.descriptionLabel.text = description
         alertView.cancelButton.backgroundColor = UIColor.brown
