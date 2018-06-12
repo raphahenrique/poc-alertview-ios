@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		462FAE714D06415493F4505A /* Pods_poc_alertViewUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20A010C9144BBECB5B130E64 /* Pods_poc_alertViewUITests.framework */; };
+		57469A68375720C3254CE86C /* Pods_poc_alertViewTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CC6354A97C5516C9FB5DC07 /* Pods_poc_alertViewTests.framework */; };
+		A822A574D2FBBCBD20558F75 /* Pods_poc_alertView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E45C67EAB3CAC9B377617AD0 /* Pods_poc_alertView.framework */; };
 		B64A255820BDD02600059E50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64A255720BDD02600059E50 /* AppDelegate.swift */; };
 		B64A255A20BDD02600059E50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64A255920BDD02600059E50 /* ViewController.swift */; };
 		B64A255D20BDD02600059E50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B64A255B20BDD02600059E50 /* Main.storyboard */; };
@@ -38,6 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1DC9DBC3CE1099470D4D84C9 /* Pods-poc-alertViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-poc-alertViewUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-poc-alertViewUITests/Pods-poc-alertViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1F7EAF12FA3EED6AC49DD93C /* Pods-poc-alertViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-poc-alertViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-poc-alertViewTests/Pods-poc-alertViewTests.release.xcconfig"; sourceTree = "<group>"; };
+		20A010C9144BBECB5B130E64 /* Pods_poc_alertViewUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_poc_alertViewUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CC6354A97C5516C9FB5DC07 /* Pods_poc_alertViewTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_poc_alertViewTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C05758FEDD196770F9FC3B /* Pods-poc-alertViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-poc-alertViewUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-poc-alertViewUITests/Pods-poc-alertViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B64A255420BDD02600059E50 /* poc-alertView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "poc-alertView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B64A255720BDD02600059E50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B64A255920BDD02600059E50 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -55,6 +63,10 @@
 		B64A258820BDD18300059E50 /* CustomAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlert.swift; sourceTree = "<group>"; };
 		B64A258A20BDDBBA00059E50 /* CustomAlertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CustomAlertView.xib; path = "poc-alertView/CustomAlertView.xib"; sourceTree = SOURCE_ROOT; };
 		B689EFD120BECF4D008411D2 /* CustomAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertView.swift; sourceTree = "<group>"; };
+		DD3F0E91C9278E6D5E08672C /* Pods-poc-alertView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-poc-alertView.release.xcconfig"; path = "Pods/Target Support Files/Pods-poc-alertView/Pods-poc-alertView.release.xcconfig"; sourceTree = "<group>"; };
+		E45C67EAB3CAC9B377617AD0 /* Pods_poc_alertView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_poc_alertView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E59ABECC1DBA706EF4E6B7B6 /* Pods-poc-alertView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-poc-alertView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-poc-alertView/Pods-poc-alertView.debug.xcconfig"; sourceTree = "<group>"; };
+		E946E5D6741A2898DF917E17 /* Pods-poc-alertViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-poc-alertViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-poc-alertViewTests/Pods-poc-alertViewTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A822A574D2FBBCBD20558F75 /* Pods_poc_alertView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57469A68375720C3254CE86C /* Pods_poc_alertViewTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,12 +90,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				462FAE714D06415493F4505A /* Pods_poc_alertViewUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9D41026CFF5538F540615668 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E45C67EAB3CAC9B377617AD0 /* Pods_poc_alertView.framework */,
+				5CC6354A97C5516C9FB5DC07 /* Pods_poc_alertViewTests.framework */,
+				20A010C9144BBECB5B130E64 /* Pods_poc_alertViewUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B64A254B20BDD02600059E50 = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +114,8 @@
 				B64A256B20BDD02600059E50 /* poc-alertViewTests */,
 				B64A257620BDD02600059E50 /* poc-alertViewUITests */,
 				B64A255520BDD02600059E50 /* Products */,
+				F4DC620B467D297B46EC1292 /* Pods */,
+				9D41026CFF5538F540615668 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -145,6 +172,19 @@
 			path = customAlert;
 			sourceTree = "<group>";
 		};
+		F4DC620B467D297B46EC1292 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E59ABECC1DBA706EF4E6B7B6 /* Pods-poc-alertView.debug.xcconfig */,
+				DD3F0E91C9278E6D5E08672C /* Pods-poc-alertView.release.xcconfig */,
+				E946E5D6741A2898DF917E17 /* Pods-poc-alertViewTests.debug.xcconfig */,
+				1F7EAF12FA3EED6AC49DD93C /* Pods-poc-alertViewTests.release.xcconfig */,
+				84C05758FEDD196770F9FC3B /* Pods-poc-alertViewUITests.debug.xcconfig */,
+				1DC9DBC3CE1099470D4D84C9 /* Pods-poc-alertViewUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -152,9 +192,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B64A257C20BDD02600059E50 /* Build configuration list for PBXNativeTarget "poc-alertView" */;
 			buildPhases = (
+				4EA42FD07E96239055477BD7 /* [CP] Check Pods Manifest.lock */,
 				B64A255020BDD02600059E50 /* Sources */,
 				B64A255120BDD02600059E50 /* Frameworks */,
 				B64A255220BDD02600059E50 /* Resources */,
+				44F49A8CBF9B3952AC219D49 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -169,6 +211,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B64A257F20BDD02600059E50 /* Build configuration list for PBXNativeTarget "poc-alertViewTests" */;
 			buildPhases = (
+				48FE78CCFD9425592F9A5B3D /* [CP] Check Pods Manifest.lock */,
 				B64A256420BDD02600059E50 /* Sources */,
 				B64A256520BDD02600059E50 /* Frameworks */,
 				B64A256620BDD02600059E50 /* Resources */,
@@ -187,6 +230,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B64A258220BDD02600059E50 /* Build configuration list for PBXNativeTarget "poc-alertViewUITests" */;
 			buildPhases = (
+				616F54AB96326D6D1FE44053 /* [CP] Check Pods Manifest.lock */,
 				B64A256F20BDD02600059E50 /* Sources */,
 				B64A257020BDD02600059E50 /* Frameworks */,
 				B64A257120BDD02600059E50 /* Resources */,
@@ -274,6 +318,81 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		44F49A8CBF9B3952AC219D49 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-poc-alertView/Pods-poc-alertView-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/TinyConstraints/TinyConstraints.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TinyConstraints.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-poc-alertView/Pods-poc-alertView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48FE78CCFD9425592F9A5B3D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-poc-alertViewTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4EA42FD07E96239055477BD7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-poc-alertView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		616F54AB96326D6D1FE44053 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-poc-alertViewUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B64A255020BDD02600059E50 /* Sources */ = {
@@ -448,6 +567,7 @@
 		};
 		B64A257D20BDD02600059E50 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E59ABECC1DBA706EF4E6B7B6 /* Pods-poc-alertView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -463,6 +583,7 @@
 		};
 		B64A257E20BDD02600059E50 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD3F0E91C9278E6D5E08672C /* Pods-poc-alertView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -478,6 +599,7 @@
 		};
 		B64A258020BDD02600059E50 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E946E5D6741A2898DF917E17 /* Pods-poc-alertViewTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -495,6 +617,7 @@
 		};
 		B64A258120BDD02600059E50 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F7EAF12FA3EED6AC49DD93C /* Pods-poc-alertViewTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +635,7 @@
 		};
 		B64A258320BDD02600059E50 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84C05758FEDD196770F9FC3B /* Pods-poc-alertViewUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +652,7 @@
 		};
 		B64A258420BDD02600059E50 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1DC9DBC3CE1099470D4D84C9 /* Pods-poc-alertViewUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

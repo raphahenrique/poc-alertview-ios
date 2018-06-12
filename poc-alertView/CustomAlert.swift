@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import TinyConstraints
 
 class CustomAlert: UIView, Modal {
     var backgroundView = UIView()
@@ -37,17 +38,18 @@ class CustomAlert: UIView, Modal {
         
         dialogView.frame.origin = CGPoint(x: 0, y: 0)
         dialogView.frame.size = CGSize(width: frame.width-32, height: frame.height/3)
-        
+    
         dialogView.backgroundColor = UIColor.white
         dialogView.layer.cornerRadius = 6
         
         let alertView = CustomAlertView.init(frame: self.bounds)
         alertView.titleLabel.text = title
         alertView.descriptionLabel.text = description
-        alertView.cancelButton.backgroundColor = UIColor.brown
-        
         
         dialogView.addSubview(alertView)
+        
+        alertView.center(in: dialogView)
+        alertView.edgesToSuperview()
         
         addSubview(dialogView)
  

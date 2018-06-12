@@ -12,7 +12,7 @@ class ViewController: UIViewController {
 
     @IBAction func tapButton(_ sender: Any) {
         
-        let alert = CustomAlert(title: "Hello there!! 👋🏻👋🏻",description: "lorem impsum bla bla bla")
+        let alert = CustomAlert(title: "Hello there!! 👋🏻👋🏻",description: "Maecenas auctor tristique placerat. Morbi a tincidunt lectus. Aenean vestibulum nulla velit, in mattis ligula iaculis vel. Ut est eros, lacinia a vestibulum ut, sodales id tellus.  ")
         
         alert.show(animated: true)
         

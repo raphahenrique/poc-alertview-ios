@@ -1,0 +1,6 @@
+framework module Pods_poc_alertView {
+  umbrella header "Pods-poc-alertView-umbrella.h"
+
+  export *
+  module * { export * }
+}

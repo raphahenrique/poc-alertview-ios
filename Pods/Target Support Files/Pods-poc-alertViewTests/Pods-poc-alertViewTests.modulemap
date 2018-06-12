@@ -1,0 +1,6 @@
+framework module Pods_poc_alertViewTests {
+  umbrella header "Pods-poc-alertViewTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

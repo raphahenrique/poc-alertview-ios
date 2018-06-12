@@ -30,10 +30,12 @@ class CustomAlertView: UIView {
     
     private func commonInit() {
         Bundle.main.loadNibNamed("CustomAlertView", owner: self, options: nil)
+        
         addSubview(contentView)
         contentView.frame = self.bounds
-    
-        contentView.translatesAutoresizingMaskIntoConstraints = false
+        contentView.translatesAutoresizingMaskIntoConstraints = true
+        //contentView.frame = self.bounds
+        //contentView.translatesAutoresizingMaskIntoConstraints = false
         
         //contentView.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:|-0-[view]-0-|", options: NSLayoutFormatOptions(rawValue: 0), metrics: nil, views: ["view":contentView]))
         
